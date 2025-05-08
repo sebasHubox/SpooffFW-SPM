@@ -1,9 +1,10 @@
+// swift-tools-version: 6.1
 import PackageDescription
 
 let package = Package(
     name: "SpooffFW",
     platforms: [
-        .iOS(.v12) // o la versión mínima que soporte tu xcframework
+        .iOS(.v16) // o la versión mínima que soporte tu xcframework
     ],
     products: [
         .library(
@@ -15,11 +16,6 @@ let package = Package(
         .binaryTarget(
             name: "SpooffFW",
             path: "./SpooffFW.xcframework"
-        ),
-        .target(
-            name: "SpooffFWWrapper",
-            dependencies: ["SpooffFW"],
-            path: "Sources/SpooffFW"
         )
     ]
 )
