@@ -1,0 +1,6 @@
+framework module SpooffFW {
+  umbrella header "SpooffFW.h"
+  export *
+
+  module * { export * }
+}

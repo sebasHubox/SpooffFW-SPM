@@ -1,0 +1,2485 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SpooffFW",
+    "printedName": "SpooffFW",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomDataSend",
+        "printedName": "CustomDataSend",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "SpooffFW.CustomDataSend",
+                "usr": "s:8SpooffFW14CustomDataSendV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SpooffFW14CustomDataSendVACycfc",
+            "mangledName": "$s8SpooffFW14CustomDataSendVACycfc",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "SpooffFW.CustomDataSend",
+                "usr": "s:8SpooffFW14CustomDataSendV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SpooffFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8SpooffFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SpooffFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8SpooffFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SpooffFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SpooffFW14CustomDataSendV",
+        "mangledName": "$s8SpooffFW14CustomDataSendV",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "deviceData",
+        "printedName": "deviceData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "deviceData",
+                "printedName": "SpooffFW.deviceData",
+                "usr": "s:8SpooffFW10deviceDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SpooffFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8SpooffFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SpooffFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8SpooffFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SpooffFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8SpooffFW10deviceDataV",
+        "mangledName": "$s8SpooffFW10deviceDataV",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalPerformanceShaders",
+        "printedName": "MetalPerformanceShaders",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersonalCodeSpoofSDKDelegate",
+        "printedName": "PersonalCodeSpoofSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCaptureSpoof",
+            "printedName": "onCaptureSpoof(farPhoto:closePhoto:liveness:description:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSiS2StF",
+            "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSiS2StF",
+            "moduleName": "SpooffFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpoofSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpoofSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCaptureSpoofCancel",
+            "printedName": "onCaptureSpoofCancel(error:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE6Cancel5error11descriptionySi_SStF",
+            "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE6Cancel5error11descriptionySi_SStF",
+            "moduleName": "SpooffFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpoofSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpoofSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP",
+        "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersonalCodeSpoof",
+        "printedName": "PersonalCodeSpoof",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCaptureSpoof",
+            "printedName": "onCaptureSpoof(farPhoto:closePhoto:liveness:result:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC09onCaptureE08farPhoto05closeI08liveness6result11descriptionySo7UIImageC_AKSiS2StF",
+            "moduleName": "SpooffFW",
+            "objc_name": "onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCaptureSpoofCancel",
+            "printedName": "onCaptureSpoofCancel(error:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)onCaptureSpoofCancelWithError:description:",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC09onCaptureE6Cancel5error11descriptionySi_SStF",
+            "moduleName": "SpooffFW",
+            "objc_name": "onCaptureSpoofCancelWithError:description:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSpoofDelegate",
+            "printedName": "PersonalCodeSpoofDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SpooffFW.PersonalCodeSpoofSDKDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersonalCodeSpoofSDKDelegate",
+                    "printedName": "any SpooffFW.PersonalCodeSpoofSDKDelegate",
+                    "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any SpooffFW.PersonalCodeSpoofSDKDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSpoofSDKDelegate",
+                        "printedName": "any SpooffFW.PersonalCodeSpoofSDKDelegate",
+                        "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any SpooffFW.PersonalCodeSpoofSDKDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSpoofSDKDelegate",
+                        "printedName": "any SpooffFW.PersonalCodeSpoofSDKDelegate",
+                        "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeServiceURL",
+            "printedName": "PersonalCodeServiceURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeToken",
+            "printedName": "PersonalCodeToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorBackground",
+            "printedName": "PersonalCodeColorBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorHighlight",
+            "printedName": "PersonalCodeColorHighlight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorFontDark",
+            "printedName": "PersonalCodeColorFontDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSettingsFont",
+            "printedName": "PersonalCodeSettingsFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSettingsLoading",
+            "printedName": "PersonalCodeSettingsLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvs",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvM",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "capture",
+            "printedName": "capture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC7captureyyF",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC7captureyyF",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unload",
+            "printedName": "unload(completion:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC6unload10completion8animatedyyycSg_SbtF",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC6unload10completion8animatedyyycSg_SbtF",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "calculateBlur",
+            "printedName": "calculateBlur(cgiimage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC13calculateBlur8cgiimageSiSo10CGImageRefa_tF",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC13calculateBlur8cgiimageSiSo10CGImageRefa_tF",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "buttonClose",
+            "printedName": "buttonClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvp",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvg",
+                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC13captureOutput_03didG04fromySo09AVCaptureG0C_So17CMSampleBufferRefaSo0J10ConnectionCtF",
+            "moduleName": "SpooffFW",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof",
+        "mangledName": "$s8SpooffFW17PersonalCodeSpoofC",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PersonalCodeSpooff_onlineDelegate",
+            "printedName": "PersonalCodeSpooff_onlineDelegate",
+            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate",
+            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersonalCodeSpooff_onlineDelegate",
+        "printedName": "PersonalCodeSpooff_onlineDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCaptureSpoof",
+            "printedName": "onCaptureSpoof(farPhoto:closePhoto:liveness:result:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
+            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP14onCaptureSpoof8farPhoto05closeK08liveness6result11descriptionySo7UIImageC_AKSiS2StF",
+            "moduleName": "SpooffFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "protocolReq": true,
+            "objc_name": "onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCaptureSpoofCancel",
+            "printedName": "onCaptureSpoofCancel(error:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onCaptureSpoofCancelWithError:description:",
+            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP20onCaptureSpoofCancel5error11descriptionySi_SStF",
+            "moduleName": "SpooffFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "protocolReq": true,
+            "objc_name": "onCaptureSpoofCancelWithError:description:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate",
+        "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP",
+        "moduleName": "SpooffFW",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpooffServiceImp",
+        "printedName": "SpooffServiceImp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "personalCodeSpooffOnlineDelegate",
+            "printedName": "personalCodeSpooffOnlineDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersonalCodeSpooff_onlineDelegate",
+                    "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
+                    "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSpooff_onlineDelegate",
+                        "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
+                        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSpooff_onlineDelegate",
+                        "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
+                        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onCaptureSelfie",
+            "printedName": "onCaptureSelfie(imgLejos:imgCerca:serviceURL:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURL5tokenySo7UIImageC_AJS2StF",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURL5tokenySo7UIImageC_AJS2StF",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8SpooffFW0A10ServiceImpC",
+        "mangledName": "$s8SpooffFW0A10ServiceImpC",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gifImageWithData",
+            "printedName": "gifImageWithData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC8SpooffFWE16gifImageWithDatayABSg10Foundation0G0VFZ",
+            "mangledName": "$sSo7UIImageC8SpooffFWE16gifImageWithDatayABSg10Foundation0G0VFZ",
+            "moduleName": "SpooffFW",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImageWithURL",
+            "printedName": "gifImageWithURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC8SpooffFWE15gifImageWithURLyABSgSSFZ",
+            "mangledName": "$sSo7UIImageC8SpooffFWE15gifImageWithURLyABSgSSFZ",
+            "moduleName": "SpooffFW",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "base64",
+            "printedName": "base64(img:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC8SpooffFWE6base643imgSSSgAB_tFZ",
+            "mangledName": "$sSo7UIImageC8SpooffFWE6base643imgSSSgAB_tFZ",
+            "moduleName": "SpooffFW",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImageWithName",
+            "printedName": "gifImageWithName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC8SpooffFWE16gifImageWithNameyABSgSSFZ",
+            "mangledName": "$sSo7UIImageC8SpooffFWE16gifImageWithNameyABSgSSFZ",
+            "moduleName": "SpooffFW",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4996,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6091,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6250,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6271,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6440,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6464,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1200,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1259,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 4739,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 4785,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 4903,
+      "length": 9,
+      "value": "\"#10A7A2\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 9,
+      "value": "\"#4A276E\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 5017,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 5065,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "StringLiteral",
+      "offset": 6834,
+      "length": 18,
+      "value": "\"Enfoca el Rostro\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "FloatLiteral",
+      "offset": 7403,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9152,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9844,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12387,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12426,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24661,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24692,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24720,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24788,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25211,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25256,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25294,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "FloatLiteral",
+      "offset": 25363,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "FloatLiteral",
+      "offset": 25386,
+      "length": 4,
+      "value": "0.70"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "FloatLiteral",
+      "offset": 25410,
+      "length": 4,
+      "value": "0.50"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25457,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25496,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25535,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25612,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25650,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39036,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39065,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39186,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "FloatLiteral",
+      "offset": 44503,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46445,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46471,
+      "length": 3,
+      "value": "640"
+    }
+  ]
+}

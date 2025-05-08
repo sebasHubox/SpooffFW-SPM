@@ -1,0 +1,64 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SpooffFW
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AVFoundation
+import Accelerate
+import Foundation
+import ImageIO
+import Metal
+import MetalKit
+import MetalPerformanceShaders
+@_exported import SpooffFW
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIImage {
+  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
+  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
+  public class func base64(img: UIKit.UIImage) -> Swift.String?
+  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
+}
+public struct CustomDataSend : Swift.Codable {
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct deviceData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol PersonalCodeSpoofSDKDelegate {
+  func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, description: Swift.String, result: Swift.String)
+  func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PersonalCodeSpoof : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, SpooffFW.PersonalCodeSpooff_onlineDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, result: Swift.String, description: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSpoofDelegate: (any SpooffFW.PersonalCodeSpoofSDKDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeServiceURL: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeToken: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorBackground: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorHighlight: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorFontDark: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSettingsFont: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSettingsLoading: Swift.String
+  @_Concurrency.MainActor @preconcurrency public func capture()
+  @_Concurrency.MainActor @preconcurrency public func unload(completion: (() -> Swift.Void)? = nil, animated: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency public func calculateBlur(cgiimage: CoreGraphics.CGImage) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency final public let buttonClose: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc deinit
+}
+@objc public protocol PersonalCodeSpooff_onlineDelegate {
+  @objc func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, result: Swift.String, description: Swift.String)
+  @objc optional func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class SpooffServiceImp {
+  public var personalCodeSpooffOnlineDelegate: (any SpooffFW.PersonalCodeSpooff_onlineDelegate)?
+  public func onCaptureSelfie(imgLejos: UIKit.UIImage, imgCerca: UIKit.UIImage, serviceURL: Swift.String, token: Swift.String)
+  @objc deinit
+}
