@@ -17,13 +17,19 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc public protocol PersonalCodeSpooff_onlineDelegate {
-  @objc func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, result: Swift.String, description: Swift.String)
+  @objc func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Double, result: Swift.String, description: Swift.String)
   @objc optional func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class SpooffServiceImp {
   public var personalCodeSpooffOnlineDelegate: (any SpooffFW.PersonalCodeSpooff_onlineDelegate)?
   public func onCaptureSelfie(imgLejos: UIKit.UIImage, imgCerca: UIKit.UIImage, serviceURL: Swift.String, token: Swift.String)
   @objc deinit
+}
+extension UIKit.UIImage {
+  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
+  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
+  public class func base64(img: UIKit.UIImage) -> Swift.String?
+  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
 }
 public struct CustomDataSend : Swift.Codable {
   public init()
@@ -34,18 +40,12 @@ public struct deviceData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension UIKit.UIImage {
-  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
-  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
-  public class func base64(img: UIKit.UIImage) -> Swift.String?
-  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
-}
 public protocol PersonalCodeSpoofSDKDelegate {
-  func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, description: Swift.String, result: Swift.String)
+  func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Double, description: Swift.String, result: Swift.String)
   func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PersonalCodeSpoof : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, SpooffFW.PersonalCodeSpooff_onlineDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, result: Swift.String, description: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Double, result: Swift.String, description: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeSpoofDelegate: (any SpooffFW.PersonalCodeSpoofSDKDelegate)?
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeServiceURL: Swift.String

@@ -345,9 +345,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -363,8 +363,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSiS2StF",
-            "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSiS2StF",
+            "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSdS2StF",
+            "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSdS2StF",
             "moduleName": "SpooffFW",
             "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpoofSDKDelegate>",
             "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpoofSDKDelegate>",
@@ -460,9 +460,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -479,7 +479,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC09onCaptureE08farPhoto05closeI08liveness6result11descriptionySo7UIImageC_AKSiS2StF",
+            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC09onCaptureE08farPhoto05closeI08liveness6result11descriptionySo7UIImageC_AKSdS2StF",
             "moduleName": "SpooffFW",
             "objc_name": "onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
             "declAttributes": [
@@ -1598,9 +1598,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -1617,7 +1617,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
-            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP14onCaptureSpoof8farPhoto05closeK08liveness6result11descriptionySo7UIImageC_AKSiS2StF",
+            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP14onCaptureSpoof8farPhoto05closeK08liveness6result11descriptionySo7UIImageC_AKSdS2StF",
             "moduleName": "SpooffFW",
             "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
             "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
@@ -2197,287 +2197,287 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 4739,
+      "offset": 4745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 4785,
+      "offset": 4791,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 4841,
+      "offset": 4847,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 4903,
+      "offset": 4909,
       "length": 9,
       "value": "\"#10A7A2\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 4965,
+      "offset": 4971,
       "length": 9,
       "value": "\"#4A276E\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 5017,
+      "offset": 5023,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 5065,
+      "offset": 5071,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "StringLiteral",
-      "offset": 6834,
+      "offset": 6840,
       "length": 18,
       "value": "\"Enfoca el Rostro\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "FloatLiteral",
-      "offset": 7403,
+      "offset": 7409,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 9152,
+      "offset": 9158,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 9844,
+      "offset": 9850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 12387,
+      "offset": 12393,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 12426,
+      "offset": 12432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 24286,
+      "offset": 24292,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 24661,
+      "offset": 24667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 24692,
+      "offset": 24698,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 24720,
+      "offset": 24726,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 24753,
+      "offset": 24759,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 24788,
+      "offset": 24794,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25117,
+      "offset": 25123,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25163,
+      "offset": 25169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25211,
+      "offset": 25217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25256,
+      "offset": 25262,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25294,
+      "offset": 25300,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25325,
+      "offset": 25331,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "FloatLiteral",
-      "offset": 25363,
+      "offset": 25369,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "FloatLiteral",
-      "offset": 25386,
+      "offset": 25392,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "FloatLiteral",
-      "offset": 25410,
+      "offset": 25416,
       "length": 4,
       "value": "0.50"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25457,
+      "offset": 25463,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25496,
+      "offset": 25502,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25535,
+      "offset": 25541,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25574,
+      "offset": 25580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25612,
+      "offset": 25618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 25650,
+      "offset": 25656,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 35976,
+      "offset": 35982,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 39036,
+      "offset": 39042,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 39065,
+      "offset": 39071,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "BooleanLiteral",
-      "offset": 39186,
+      "offset": 39192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "FloatLiteral",
-      "offset": 44503,
+      "offset": 44509,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 46445,
+      "offset": 46451,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
       "kind": "IntegerLiteral",
-      "offset": 46471,
+      "offset": 46477,
       "length": 3,
       "value": "640"
     }

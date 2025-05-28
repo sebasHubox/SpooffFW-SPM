@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tLSg+utJobdz3SHXX3avH8Sdhk0=
+		DeYLPXFUv2h4ragQQd0YLYBuvzg=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5qonr/aAaGEvZERPw6FoE4zK5GY=
+		mOX0JYU+8iBpWsLK3sstjrDF0Cs=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LGIbIUJF/7XrfNHNKfXuJn9duuM=
+		SzVkXNFUiai2PdcgLD2bFAjJ3Co=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LGIbIUJF/7XrfNHNKfXuJn9duuM=
+		SzVkXNFUiai2PdcgLD2bFAjJ3Co=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3/O0wRyKt8dD4uTqARWrnVZPwKY=
+		oPuMIcmTBgGub1Yjq/QPjrW9xXM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a5Fr+Yw7PV5IQ+0hbqaY0hJwaCFKaVFXJ5Lunkn4Gig=
+			uh8Lo2cRphUFWc0gYLwZ9UNmnaoHO2KfrmA9eNuUxP8=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l8PV4Hm6xbLXNhQYE9I0lPedDPtDIYMdTc5YF4hYDfM=
+			+yS9hYv6s6X4OWn+0yVzem9Z1QlwEHzSshrPbmyKSEo=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l8PV4Hm6xbLXNhQYE9I0lPedDPtDIYMdTc5YF4hYDfM=
+			+yS9hYv6s6X4OWn+0yVzem9Z1QlwEHzSshrPbmyKSEo=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B66YSaD8INVB9eeJf12Bh0Ro4c1Mkm3mVCO+pN1JL4c=
+			8JmGJdWvtS8F1hZT0+xkyOhkawGOppEGF13KKNE1nQo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

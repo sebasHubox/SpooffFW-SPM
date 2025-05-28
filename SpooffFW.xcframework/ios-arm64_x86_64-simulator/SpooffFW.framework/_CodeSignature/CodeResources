@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qjnvbKA02tOvdJ3p7064LVO9fMI=
+		Teik0t/QVRfvE8lUfZTCKtOrzgk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mUUxae5e3rnvR0KbVVyTTRJQGho=
+		8pP5jPaGB1nnzOO5NObrpIFcN8A=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ywETxsn6BrX9SmZWzi1SManHxJQ=
+		tOmJGqoFkACNGDZlq7lrGFGPzdk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ywETxsn6BrX9SmZWzi1SManHxJQ=
+		tOmJGqoFkACNGDZlq7lrGFGPzdk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WzoWOaMuMTsnGBveFSApVWcJNiQ=
+		ACPnIugh+yj7Ql3INVemsft7D9E=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mUUxae5e3rnvR0KbVVyTTRJQGho=
+		8pP5jPaGB1nnzOO5NObrpIFcN8A=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		i/aMhcfRUyrsqzpBVs+LTsxVYgU=
+		TW/hi0Yv4f7IiTbqlqvGz+PCa50=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		i/aMhcfRUyrsqzpBVs+LTsxVYgU=
+		TW/hi0Yv4f7IiTbqlqvGz+PCa50=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kT3d1rMfv2sAuDJEBsZvLOIF0sM=
+		ytLNQ6j26qyQ7wheFcyGBIgWpmA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IspCS92M+UYgZ0yllJRH3QNTSifUl2aLOD+D5hSGdps=
+			er9BsPYMOEJHpmstwT7cCzl7Mi3Yg2XmfTPr74/NJBM=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LxtqD2xj1j54jkQ7A1RE6fnb4Gm7qEXpL63fAOaeqM=
+			0LywXC1h9MHIZ4GLdMojlTRC7Q7JlyMFPDxizYJzyWg=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LxtqD2xj1j54jkQ7A1RE6fnb4Gm7qEXpL63fAOaeqM=
+			0LywXC1h9MHIZ4GLdMojlTRC7Q7JlyMFPDxizYJzyWg=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9AadLDENqibqzeakUJjcV5Tg6Sdm7D2A+TRmdzwrZYY=
+			vwLhIJ/WKtkOefANvGV/3YPd85i4isfCMmn6+q7Lwqg=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IspCS92M+UYgZ0yllJRH3QNTSifUl2aLOD+D5hSGdps=
+			er9BsPYMOEJHpmstwT7cCzl7Mi3Yg2XmfTPr74/NJBM=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MKtuL/NrjZQd3pMZz7K5AiY77mQYdidzCWFhPSmT9b0=
+			5WTyA8E1BxGI3XedyqakGAYgGlHNZmXwKmiMescD/+c=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MKtuL/NrjZQd3pMZz7K5AiY77mQYdidzCWFhPSmT9b0=
+			5WTyA8E1BxGI3XedyqakGAYgGlHNZmXwKmiMescD/+c=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/lj2yf2DMrcGe7LRELAmPfng8ln5KxKuoBKRLAiHQnY=
+			FLzUTTdqmRuuGz5au45xLz3DnrwEEZrFkhEyvlBYA4E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

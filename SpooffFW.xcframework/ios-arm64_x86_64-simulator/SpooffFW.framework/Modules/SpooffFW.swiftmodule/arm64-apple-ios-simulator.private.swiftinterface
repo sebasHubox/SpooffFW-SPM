@@ -32,11 +32,11 @@ public struct deviceData : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol PersonalCodeSpoofSDKDelegate {
-  func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, description: Swift.String, result: Swift.String)
+  func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Double, description: Swift.String, result: Swift.String)
   func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PersonalCodeSpoof : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, SpooffFW.PersonalCodeSpooff_onlineDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, result: Swift.String, description: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Double, result: Swift.String, description: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc public func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeSpoofDelegate: (any SpooffFW.PersonalCodeSpoofSDKDelegate)?
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeServiceURL: Swift.String
@@ -54,7 +54,7 @@ public protocol PersonalCodeSpoofSDKDelegate {
   @objc deinit
 }
 @objc public protocol PersonalCodeSpooff_onlineDelegate {
-  @objc func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Int, result: Swift.String, description: Swift.String)
+  @objc func onCaptureSpoof(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, liveness: Swift.Double, result: Swift.String, description: Swift.String)
   @objc optional func onCaptureSpoofCancel(error: Swift.Int, description: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class SpooffServiceImp {
