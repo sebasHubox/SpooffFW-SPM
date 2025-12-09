@@ -23,351 +23,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PersonalCodeSpooff_onlineDelegate",
-        "printedName": "PersonalCodeSpooff_onlineDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onCaptureSpoof",
-            "printedName": "onCaptureSpoof(farPhoto:closePhoto:liveness:result:description:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
-            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP14onCaptureSpoof8farPhoto05closeK08liveness6result11descriptionySo7UIImageC_AKSdS2StF",
-            "moduleName": "SpooffFW",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
-            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
-            "protocolReq": true,
-            "objc_name": "onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onCaptureSpoofCancel",
-            "printedName": "onCaptureSpoofCancel(error:description:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onCaptureSpoofCancelWithError:description:",
-            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP20onCaptureSpoofCancel5error11descriptionySi_SStF",
-            "moduleName": "SpooffFW",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
-            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
-            "protocolReq": true,
-            "objc_name": "onCaptureSpoofCancelWithError:description:",
-            "declAttributes": [
-              "Optional",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate",
-        "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP",
-        "moduleName": "SpooffFW",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SpooffServiceImp",
-        "printedName": "SpooffServiceImp",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "personalCodeSpooffOnlineDelegate",
-            "printedName": "personalCodeSpooffOnlineDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PersonalCodeSpooff_onlineDelegate",
-                    "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
-                    "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvp",
-            "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvp",
-            "moduleName": "SpooffFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PersonalCodeSpooff_onlineDelegate",
-                        "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
-                        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvg",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvg",
-                "moduleName": "SpooffFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PersonalCodeSpooff_onlineDelegate",
-                        "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
-                        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvs",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvs",
-                "moduleName": "SpooffFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvM",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvM",
-                "moduleName": "SpooffFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "onCaptureSelfie",
-            "printedName": "onCaptureSelfie(imgLejos:imgCerca:serviceURL:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURL5tokenySo7UIImageC_AJS2StF",
-            "mangledName": "$s8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURL5tokenySo7UIImageC_AJS2StF",
-            "moduleName": "SpooffFW",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:8SpooffFW0A10ServiceImpC",
-        "mangledName": "$s8SpooffFW0A10ServiceImpC",
-        "moduleName": "SpooffFW",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SpooffFW",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpooffFW"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SpooffFW",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpooffFW"
-      },
-      {
-        "kind": "TypeDecl",
         "name": "CustomDataSend",
         "printedName": "CustomDataSend",
         "children": [
@@ -646,13 +301,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PersonalCodeSpoofSDKDelegate",
-        "printedName": "PersonalCodeSpoofSDKDelegate",
+        "name": "FaceSpooffOnlineListener",
+        "printedName": "FaceSpooffOnlineListener",
         "children": [
           {
             "kind": "Function",
-            "name": "onCaptureSpoof",
-            "printedName": "onCaptureSpoof(farPhoto:closePhoto:liveness:description:result:)",
+            "name": "onSuccess",
+            "printedName": "onSuccess(farPhoto:closePhoto:live:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -676,34 +331,22 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSdS2StF",
-            "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE08farPhoto05closeJ08liveness11description6resultySo7UIImageC_AKSdS2StF",
+            "usr": "s:8SpooffFW04FaceA14OnlineListenerP9onSuccess8farPhoto05closeI04liveySo7UIImageC_AISdtF",
+            "mangledName": "$s8SpooffFW04FaceA14OnlineListenerP9onSuccess8farPhoto05closeI04liveySo7UIImageC_AISdtF",
             "moduleName": "SpooffFW",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpoofSDKDelegate>",
-            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpoofSDKDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.FaceSpooffOnlineListener>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.FaceSpooffOnlineListener>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "onCaptureSpoofCancel",
-            "printedName": "onCaptureSpoofCancel(error:description:)",
+            "name": "onError",
+            "printedName": "onError(status:description:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -724,19 +367,19 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE6Cancel5error11descriptionySi_SStF",
-            "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP09onCaptureE6Cancel5error11descriptionySi_SStF",
+            "usr": "s:8SpooffFW04FaceA14OnlineListenerP7onError6status11descriptionySi_SStF",
+            "mangledName": "$s8SpooffFW04FaceA14OnlineListenerP7onError6status11descriptionySi_SStF",
             "moduleName": "SpooffFW",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpoofSDKDelegate>",
-            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpoofSDKDelegate>",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.FaceSpooffOnlineListener>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.FaceSpooffOnlineListener>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP",
-        "mangledName": "$s8SpooffFW28PersonalCodeSpoofSDKDelegateP",
+        "usr": "s:8SpooffFW04FaceA14OnlineListenerP",
+        "mangledName": "$s8SpooffFW04FaceA14OnlineListenerP",
         "moduleName": "SpooffFW",
         "declAttributes": [
           "AccessControl",
@@ -761,13 +404,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PersonalCodeSpoof",
-        "printedName": "PersonalCodeSpoof",
+        "name": "FaceSpooffOnline",
+        "printedName": "FaceSpooffOnline",
         "children": [
           {
             "kind": "Function",
-            "name": "onCaptureSpoof",
-            "printedName": "onCaptureSpoof(farPhoto:closePhoto:liveness:result:description:)",
+            "name": "onSuccess",
+            "printedName": "onSuccess(farPhoto:closePhoto:live:description:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -797,19 +440,13 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC09onCaptureE08farPhoto05closeI08liveness6result11descriptionySo7UIImageC_AKSdS2StF",
+            "usr": "c:@M@SpooffFW@objc(cs)FaceSpooffOnline(im)onSuccessWithFarPhoto:closePhoto:live:description:",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC9onSuccess8farPhoto05closeH04live11descriptionySo7UIImageC_AJSdSStF",
             "moduleName": "SpooffFW",
-            "objc_name": "onCaptureSpoofWithFarPhoto:closePhoto:liveness:result:description:",
+            "objc_name": "onSuccessWithFarPhoto:closePhoto:live:description:",
             "declAttributes": [
               "ObjC",
               "Preconcurrency",
@@ -820,8 +457,8 @@
           },
           {
             "kind": "Function",
-            "name": "onCaptureSpoofCancel",
-            "printedName": "onCaptureSpoofCancel(error:description:)",
+            "name": "onError",
+            "printedName": "onError(status:description:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -842,10 +479,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)onCaptureSpoofCancelWithError:description:",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC09onCaptureE6Cancel5error11descriptionySi_SStF",
+            "usr": "c:@M@SpooffFW@objc(cs)FaceSpooffOnline(im)onErrorWithStatus:description:",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC7onError6status11descriptionySi_SStF",
             "moduleName": "SpooffFW",
-            "objc_name": "onCaptureSpoofCancelWithError:description:",
+            "objc_name": "onErrorWithStatus:description:",
             "declAttributes": [
               "ObjC",
               "Preconcurrency",
@@ -862,21 +499,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any SpooffFW.PersonalCodeSpoofSDKDelegate)?",
+                "printedName": "(any SpooffFW.FaceSpooffOnlineListener)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PersonalCodeSpoofSDKDelegate",
-                    "printedName": "any SpooffFW.PersonalCodeSpoofSDKDelegate",
-                    "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP"
+                    "name": "FaceSpooffOnlineListener",
+                    "printedName": "any SpooffFW.FaceSpooffOnlineListener",
+                    "usr": "s:8SpooffFW04FaceA14OnlineListenerP"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -895,21 +532,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any SpooffFW.PersonalCodeSpoofSDKDelegate)?",
+                    "printedName": "(any SpooffFW.FaceSpooffOnlineListener)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PersonalCodeSpoofSDKDelegate",
-                        "printedName": "any SpooffFW.PersonalCodeSpoofSDKDelegate",
-                        "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP"
+                        "name": "FaceSpooffOnlineListener",
+                        "printedName": "any SpooffFW.FaceSpooffOnlineListener",
+                        "usr": "s:8SpooffFW04FaceA14OnlineListenerP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -927,21 +564,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any SpooffFW.PersonalCodeSpoofSDKDelegate)?",
+                    "printedName": "(any SpooffFW.FaceSpooffOnlineListener)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PersonalCodeSpoofSDKDelegate",
-                        "printedName": "any SpooffFW.PersonalCodeSpoofSDKDelegate",
-                        "usr": "s:8SpooffFW28PersonalCodeSpoofSDKDelegateP"
+                        "name": "FaceSpooffOnlineListener",
+                        "printedName": "any SpooffFW.FaceSpooffOnlineListener",
+                        "usr": "s:8SpooffFW04FaceA14OnlineListenerP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -958,8 +595,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cdE8DelegateAA0cdE11SDKDelegate_pSgvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeSpoofDelegateAA0caD8Listener_pSgvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -979,8 +616,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1004,8 +641,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1028,8 +665,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1046,8 +683,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD10ServiceURLSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1056,8 +693,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeToken",
-            "printedName": "PersonalCodeToken",
+            "name": "PersonalCodeAccessKey",
+            "printedName": "PersonalCodeAccessKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1067,8 +704,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1092,8 +729,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1116,8 +753,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1134,8 +771,184 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD5TokenSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSecretKey",
+            "printedName": "PersonalCodeSecretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodePublicKey",
+            "printedName": "PersonalCodePublicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1155,8 +968,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1180,8 +993,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1204,8 +1017,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1222,8 +1035,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15ColorBackgroundSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1243,8 +1056,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1268,8 +1081,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1292,8 +1105,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1310,8 +1123,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD14ColorHighlightSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1331,8 +1144,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1356,8 +1169,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1380,8 +1193,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1398,8 +1211,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD13ColorFontDarkSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1419,8 +1232,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1444,8 +1257,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1468,8 +1281,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1486,8 +1299,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD12SettingsFontSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1507,8 +1320,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1532,8 +1345,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1556,8 +1369,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvs",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1574,13 +1387,161 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvM",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC0cD15SettingsLoadingSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoCloseSeconds",
+            "printedName": "autoCloseSeconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC16autoCloseSecondsSdvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(cs)FaceSpooffOnline(im)viewDidLoad",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC11viewDidLoadyyF",
+            "moduleName": "SpooffFW",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(cs)FaceSpooffOnline(im)viewDidAppear:",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC13viewDidAppearyySbF",
+            "moduleName": "SpooffFW",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -1594,8 +1555,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC7captureyyF",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC7captureyyF",
+            "usr": "s:8SpooffFW04FaceA6OnlineC7captureyyF",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC7captureyyF",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "Preconcurrency",
@@ -1649,8 +1610,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC6unload10completion8animatedyyycSg_SbtF",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC6unload10completion8animatedyyycSg_SbtF",
+            "usr": "s:8SpooffFW04FaceA6OnlineC6unload10completion8animatedyyycSg_SbtF",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC6unload10completion8animatedyyycSg_SbtF",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "Preconcurrency",
@@ -1678,8 +1639,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC13calculateBlur8cgiimageSiSo10CGImageRefa_tF",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC13calculateBlur8cgiimageSiSo10CGImageRefa_tF",
+            "usr": "s:8SpooffFW04FaceA6OnlineC13calculateBlur8cgiimageSiSo10CGImageRefa_tF",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC13calculateBlur8cgiimageSiSo10CGImageRefa_tF",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "Preconcurrency",
@@ -1701,8 +1662,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvp",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC11buttonCloseSo8UIButtonCvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC11buttonCloseSo8UIButtonCvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1728,8 +1689,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvg",
-                "mangledName": "$s8SpooffFW17PersonalCodeSpoofC11buttonCloseSo8UIButtonCvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC11buttonCloseSo8UIButtonCvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC11buttonCloseSo8UIButtonCvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "declAttributes": [
@@ -1769,8 +1730,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof(im)captureOutput:didOutputSampleBuffer:fromConnection:",
-            "mangledName": "$s8SpooffFW17PersonalCodeSpoofC13captureOutput_03didG04fromySo09AVCaptureG0C_So17CMSampleBufferRefaSo0J10ConnectionCtF",
+            "usr": "c:@M@SpooffFW@objc(cs)FaceSpooffOnline(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
             "moduleName": "SpooffFW",
             "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
             "declAttributes": [
@@ -1783,8 +1744,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@SpooffFW@objc(cs)PersonalCodeSpoof",
-        "mangledName": "$s8SpooffFW17PersonalCodeSpoofC",
+        "usr": "c:@M@SpooffFW@objc(cs)FaceSpooffOnline",
+        "mangledName": "$s8SpooffFW04FaceA6OnlineC",
         "moduleName": "SpooffFW",
         "declAttributes": [
           "Preconcurrency",
@@ -1873,10 +1834,695 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersonalCodeSpooff_onlineDelegate",
+        "printedName": "PersonalCodeSpooff_onlineDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(farPhoto:closePhoto:live:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onSuccessWithFarPhoto:closePhoto:live:description:",
+            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP9onSuccess8farPhoto05closeJ04live11descriptionySo7UIImageC_AJSdSStF",
+            "moduleName": "SpooffFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "protocolReq": true,
+            "objc_name": "onSuccessWithFarPhoto:closePhoto:live:description:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(status:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate(im)onErrorWithStatus:description:",
+            "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP7onError6status11descriptionySi_SStF",
+            "moduleName": "SpooffFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "sugared_genericSig": "<Self where Self : SpooffFW.PersonalCodeSpooff_onlineDelegate>",
+            "protocolReq": true,
+            "objc_name": "onErrorWithStatus:description:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate",
+        "mangledName": "$s8SpooffFW012PersonalCodeA15_onlineDelegateP",
+        "moduleName": "SpooffFW",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpooffServiceImp",
+        "printedName": "SpooffServiceImp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "personalCodeSpooffOnlineDelegate",
+            "printedName": "personalCodeSpooffOnlineDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersonalCodeSpooff_onlineDelegate",
+                    "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
+                    "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSpooff_onlineDelegate",
+                        "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
+                        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any SpooffFW.PersonalCodeSpooff_onlineDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSpooff_onlineDelegate",
+                        "printedName": "any SpooffFW.PersonalCodeSpooff_onlineDelegate",
+                        "usr": "c:@M@SpooffFW@objc(pl)PersonalCodeSpooff_onlineDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC012personalCodeA14OnlineDelegateAA08Personalfa7_onlineH0_pSgvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "access_key",
+            "printedName": "access_key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secretKey",
+            "printedName": "secretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW0A10ServiceImpC9secretKeySSvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC9secretKeySSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC9secretKeySSvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9secretKeySSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC9secretKeySSvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9secretKeySSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC9secretKeySSvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9secretKeySSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicKeyPEM",
+            "printedName": "publicKeyPEM",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onCaptureSelfie",
+            "printedName": "onCaptureSelfie(imgLejos:imgCerca:serviceURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURLySo7UIImageC_AISStF",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURLySo7UIImageC_AISStF",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8SpooffFW0A10ServiceImpC",
+        "mangledName": "$s8SpooffFW0A10ServiceImpC",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SpooffFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenGenerator",
+        "printedName": "TokenGenerator",
+        "declKind": "Class",
+        "usr": "s:8SpooffFW14TokenGeneratorC",
+        "mangledName": "$s8SpooffFW14TokenGeneratorC",
+        "moduleName": "SpooffFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2127,6 +2773,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByImageLiteral",
             "printedName": "_ExpressibleByImageLiteral",
             "usr": "s:s26_ExpressibleByImageLiteralP",
@@ -2138,6 +2791,342 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1250,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1309,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 550,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7511,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7561,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7611,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7661,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7717,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7779,
+      "length": 9,
+      "value": "\"#10A7A2\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7841,
+      "length": 9,
+      "value": "\"#4A276E\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7893,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7941,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "FloatLiteral",
+      "offset": 7999,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8196,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8335,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "FloatLiteral",
+      "offset": 10784,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14062,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16638,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32599,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33005,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33036,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33097,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33132,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33535,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33580,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33645,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "FloatLiteral",
+      "offset": 33671,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "FloatLiteral",
+      "offset": 33694,
+      "length": 4,
+      "value": "0.70"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "FloatLiteral",
+      "offset": 33718,
+      "length": 4,
+      "value": "0.50"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33800,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33839,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33916,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33954,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 43345,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46368,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 46489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "FloatLiteral",
+      "offset": 51506,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53411,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53437,
+      "length": 3,
+      "value": "640"
+    },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ImageExtension.swift",
       "kind": "BooleanLiteral",
@@ -2181,305 +3170,25 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 1200,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 1259,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
       "kind": "StringLiteral",
-      "offset": 4745,
+      "offset": 637,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
       "kind": "StringLiteral",
-      "offset": 4791,
+      "offset": 667,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
       "kind": "StringLiteral",
-      "offset": 4847,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "StringLiteral",
-      "offset": 4909,
-      "length": 9,
-      "value": "\"#10A7A2\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "StringLiteral",
-      "offset": 4971,
-      "length": 9,
-      "value": "\"#4A276E\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "StringLiteral",
-      "offset": 5023,
+      "offset": 700,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "StringLiteral",
-      "offset": 5071,
-      "length": 9,
-      "value": "\"loading\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "StringLiteral",
-      "offset": 6840,
-      "length": 18,
-      "value": "\"Enfoca el Rostro\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "FloatLiteral",
-      "offset": 7409,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9158,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9850,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12393,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12432,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24292,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24667,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24698,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24726,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24759,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 24794,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25123,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25169,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25217,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25262,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25300,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25331,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "FloatLiteral",
-      "offset": 25369,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "FloatLiteral",
-      "offset": 25392,
-      "length": 4,
-      "value": "0.70"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "FloatLiteral",
-      "offset": 25416,
-      "length": 4,
-      "value": "0.50"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25463,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25502,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25541,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25580,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25618,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25656,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35982,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39042,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39071,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "BooleanLiteral",
-      "offset": 39192,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "FloatLiteral",
-      "offset": 44509,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 46451,
-      "length": 3,
-      "value": "480"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/PersonalCodeSpoof.swift",
-      "kind": "IntegerLiteral",
-      "offset": 46477,
-      "length": 3,
-      "value": "640"
     }
   ]
 }
