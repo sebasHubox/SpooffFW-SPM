@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SpooffFW
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import Accelerate
 import CryptoKit
@@ -35,15 +35,16 @@ public protocol FaceSpooffOnlineListener {
   @_Concurrency.MainActor @preconcurrency @objc public func onSuccess(farPhoto: UIKit.UIImage, closePhoto: UIKit.UIImage, live: Swift.Double, description: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc public func onError(status: Swift.Int, description: Swift.String)
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeSpoofDelegate: (any SpooffFW.FaceSpooffOnlineListener)?
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeServiceURL: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeAccessKey: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSecretKey: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodePublicKey: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorBackground: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorHighlight: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorFontDark: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSettingsFont: Swift.String
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSettingsLoading: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var serviceURL: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var accessKey: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var secretKey: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var publicKey: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var mode: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var colorBackground: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var colorHighlight: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var colorFontDark: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var settingsFont: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var settingsLoading: Swift.String
   @_Concurrency.MainActor @preconcurrency public var autoCloseSeconds: Swift.Double
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
@@ -76,10 +77,10 @@ extension UIKit.UIImage {
 }
 @_hasMissingDesignatedInitializers public class SpooffServiceImp {
   public var personalCodeSpooffOnlineDelegate: (any SpooffFW.PersonalCodeSpooff_onlineDelegate)?
-  public var access_key: Swift.String
+  public var accessKey: Swift.String
   public var secretKey: Swift.String
-  public var publicKeyPEM: Swift.String
-  public func onCaptureSelfie(imgLejos: UIKit.UIImage, imgCerca: UIKit.UIImage, serviceURL: Swift.String)
+  public var publicKey: Swift.String
+  public func onCaptureSelfie(imgLejos: UIKit.UIImage, imgCerca: UIKit.UIImage, serviceURL: Swift.String, mode: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TokenGenerator {

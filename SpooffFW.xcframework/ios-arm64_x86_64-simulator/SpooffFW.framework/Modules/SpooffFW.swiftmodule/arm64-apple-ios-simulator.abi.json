@@ -605,8 +605,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeServiceURL",
-            "printedName": "PersonalCodeServiceURL",
+            "name": "serviceURL",
+            "printedName": "serviceURL",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -616,8 +616,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC10serviceURLSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC10serviceURLSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -641,8 +641,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC10serviceURLSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC10serviceURLSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -665,8 +665,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC10serviceURLSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC10serviceURLSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -683,8 +683,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC22PersonalCodeServiceURLSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC10serviceURLSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC10serviceURLSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -693,8 +693,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeAccessKey",
-            "printedName": "PersonalCodeAccessKey",
+            "name": "accessKey",
+            "printedName": "accessKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -704,8 +704,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC9accessKeySSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC9accessKeySSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -729,8 +729,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9accessKeySSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9accessKeySSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -753,8 +753,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9accessKeySSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9accessKeySSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -771,8 +771,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeAccessKeySSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9accessKeySSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9accessKeySSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -781,8 +781,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeSecretKey",
-            "printedName": "PersonalCodeSecretKey",
+            "name": "secretKey",
+            "printedName": "secretKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -792,8 +792,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC9secretKeySSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC9secretKeySSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -817,8 +817,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9secretKeySSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9secretKeySSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -841,8 +841,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9secretKeySSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9secretKeySSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -859,8 +859,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodeSecretKeySSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9secretKeySSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9secretKeySSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -869,8 +869,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodePublicKey",
-            "printedName": "PersonalCodePublicKey",
+            "name": "publicKey",
+            "printedName": "publicKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -880,8 +880,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC9publicKeySSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC9publicKeySSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -905,8 +905,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9publicKeySSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9publicKeySSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -929,8 +929,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9publicKeySSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9publicKeySSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -947,8 +947,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC21PersonalCodePublicKeySSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC9publicKeySSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC9publicKeySSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -957,8 +957,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorBackground",
-            "printedName": "PersonalCodeColorBackground",
+            "name": "mode",
+            "printedName": "mode",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -968,8 +968,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC4modeSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC4modeSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -993,8 +993,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC4modeSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC4modeSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1017,8 +1017,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC4modeSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC4modeSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1035,8 +1035,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeColorBackgroundSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC4modeSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC4modeSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1045,8 +1045,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorHighlight",
-            "printedName": "PersonalCodeColorHighlight",
+            "name": "colorBackground",
+            "printedName": "colorBackground",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1056,8 +1056,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC15colorBackgroundSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC15colorBackgroundSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1081,8 +1081,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC15colorBackgroundSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC15colorBackgroundSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1105,8 +1105,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC15colorBackgroundSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC15colorBackgroundSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1123,8 +1123,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC26PersonalCodeColorHighlightSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC15colorBackgroundSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC15colorBackgroundSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1133,8 +1133,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorFontDark",
-            "printedName": "PersonalCodeColorFontDark",
+            "name": "colorHighlight",
+            "printedName": "colorHighlight",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1144,8 +1144,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC14colorHighlightSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC14colorHighlightSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1169,8 +1169,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC14colorHighlightSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC14colorHighlightSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1193,8 +1193,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC14colorHighlightSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC14colorHighlightSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1211,8 +1211,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC25PersonalCodeColorFontDarkSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC14colorHighlightSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC14colorHighlightSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1221,8 +1221,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeSettingsFont",
-            "printedName": "PersonalCodeSettingsFont",
+            "name": "colorFontDark",
+            "printedName": "colorFontDark",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1232,8 +1232,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC13colorFontDarkSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC13colorFontDarkSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1257,8 +1257,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC13colorFontDarkSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC13colorFontDarkSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1281,8 +1281,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC13colorFontDarkSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC13colorFontDarkSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1299,8 +1299,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC24PersonalCodeSettingsFontSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC13colorFontDarkSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC13colorFontDarkSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1309,8 +1309,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeSettingsLoading",
-            "printedName": "PersonalCodeSettingsLoading",
+            "name": "settingsFont",
+            "printedName": "settingsFont",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1320,8 +1320,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvp",
-            "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvp",
+            "usr": "s:8SpooffFW04FaceA6OnlineC12settingsFontSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC12settingsFontSSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1345,8 +1345,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvg",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvg",
+                "usr": "s:8SpooffFW04FaceA6OnlineC12settingsFontSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC12settingsFontSSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1369,8 +1369,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvs",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvs",
+                "usr": "s:8SpooffFW04FaceA6OnlineC12settingsFontSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC12settingsFontSSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1387,8 +1387,96 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvM",
-                "mangledName": "$s8SpooffFW04FaceA6OnlineC27PersonalCodeSettingsLoadingSSvM",
+                "usr": "s:8SpooffFW04FaceA6OnlineC12settingsFontSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC12settingsFontSSvM",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "settingsLoading",
+            "printedName": "settingsLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8SpooffFW04FaceA6OnlineC15settingsLoadingSSvp",
+            "mangledName": "$s8SpooffFW04FaceA6OnlineC15settingsLoadingSSvp",
+            "moduleName": "SpooffFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC15settingsLoadingSSvg",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC15settingsLoadingSSvg",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC15settingsLoadingSSvs",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC15settingsLoadingSSvs",
+                "moduleName": "SpooffFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8SpooffFW04FaceA6OnlineC15settingsLoadingSSvM",
+                "mangledName": "$s8SpooffFW04FaceA6OnlineC15settingsLoadingSSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2146,8 +2234,8 @@
           },
           {
             "kind": "Var",
-            "name": "access_key",
-            "printedName": "access_key",
+            "name": "accessKey",
+            "printedName": "accessKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2157,8 +2245,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvp",
-            "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvp",
+            "usr": "s:8SpooffFW0A10ServiceImpC9accessKeySSvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC9accessKeySSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -2180,8 +2268,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvg",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvg",
+                "usr": "s:8SpooffFW0A10ServiceImpC9accessKeySSvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9accessKeySSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2204,8 +2292,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvs",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvs",
+                "usr": "s:8SpooffFW0A10ServiceImpC9accessKeySSvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9accessKeySSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2222,8 +2310,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC10access_keySSvM",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC10access_keySSvM",
+                "usr": "s:8SpooffFW0A10ServiceImpC9accessKeySSvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9accessKeySSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2318,8 +2406,8 @@
           },
           {
             "kind": "Var",
-            "name": "publicKeyPEM",
-            "printedName": "publicKeyPEM",
+            "name": "publicKey",
+            "printedName": "publicKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2329,8 +2417,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvp",
-            "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvp",
+            "usr": "s:8SpooffFW0A10ServiceImpC9publicKeySSvp",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC9publicKeySSvp",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "HasInitialValue",
@@ -2352,8 +2440,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvg",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvg",
+                "usr": "s:8SpooffFW0A10ServiceImpC9publicKeySSvg",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9publicKeySSvg",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2376,8 +2464,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvs",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvs",
+                "usr": "s:8SpooffFW0A10ServiceImpC9publicKeySSvs",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9publicKeySSvs",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2394,8 +2482,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8SpooffFW0A10ServiceImpC12publicKeyPEMSSvM",
-                "mangledName": "$s8SpooffFW0A10ServiceImpC12publicKeyPEMSSvM",
+                "usr": "s:8SpooffFW0A10ServiceImpC9publicKeySSvM",
+                "mangledName": "$s8SpooffFW0A10ServiceImpC9publicKeySSvM",
                 "moduleName": "SpooffFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2405,7 +2493,7 @@
           {
             "kind": "Function",
             "name": "onCaptureSelfie",
-            "printedName": "onCaptureSelfie(imgLejos:imgCerca:serviceURL:)",
+            "printedName": "onCaptureSelfie(imgLejos:imgCerca:serviceURL:mode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2429,11 +2517,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURLySo7UIImageC_AISStF",
-            "mangledName": "$s8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURLySo7UIImageC_AISStF",
+            "usr": "s:8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURL4modeySo7UIImageC_AJS2StF",
+            "mangledName": "$s8SpooffFW0A10ServiceImpC15onCaptureSelfie8imgLejos0H5Cerca10serviceURL4modeySo7UIImageC_AJS2StF",
             "moduleName": "SpooffFW",
             "declAttributes": [
               "AccessControl"
@@ -2794,14 +2888,14 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1250,
+      "offset": 1289,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/ConectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1309,
+      "offset": 1348,
       "length": 3,
       "value": "0.0"
     },
@@ -2815,315 +2909,322 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7511,
+      "offset": 7499,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7561,
+      "offset": 7537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7611,
+      "offset": 7575,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7661,
+      "offset": 7613,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7717,
+      "offset": 7646,
+      "length": 10,
+      "value": "\"Balanced\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "StringLiteral",
+      "offset": 7698,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7779,
+      "offset": 7748,
       "length": 9,
       "value": "\"#10A7A2\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7841,
+      "offset": 7798,
       "length": 9,
       "value": "\"#4A276E\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7893,
+      "offset": 7838,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "StringLiteral",
-      "offset": 7941,
+      "offset": 7874,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "FloatLiteral",
-      "offset": 7999,
+      "offset": 7932,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 8196,
+      "offset": 8129,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "BooleanLiteral",
-      "offset": 8335,
+      "offset": 8268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "FloatLiteral",
-      "offset": 10784,
+      "offset": 10681,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "BooleanLiteral",
-      "offset": 12484,
+      "offset": 12381,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "BooleanLiteral",
-      "offset": 14062,
+      "offset": 13959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 16638,
+      "offset": 16535,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "BooleanLiteral",
-      "offset": 16677,
+      "offset": 16574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "BooleanLiteral",
-      "offset": 32599,
+      "offset": 32472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
+      "offset": 32878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32909,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32937,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32970,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
+      "kind": "BooleanLiteral",
       "offset": 33005,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
-      "kind": "IntegerLiteral",
-      "offset": 33036,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33064,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33097,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
-      "kind": "BooleanLiteral",
-      "offset": 33132,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33445,
+      "offset": 33318,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33491,
+      "offset": 33364,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33535,
+      "offset": 33408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33580,
+      "offset": 33453,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33614,
+      "offset": 33487,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33645,
+      "offset": 33518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "FloatLiteral",
-      "offset": 33671,
+      "offset": 33544,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "FloatLiteral",
-      "offset": 33694,
+      "offset": 33567,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "FloatLiteral",
-      "offset": 33718,
+      "offset": 33591,
       "length": 4,
       "value": "0.50"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33761,
+      "offset": 33634,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33800,
+      "offset": 33673,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33839,
+      "offset": 33712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33878,
+      "offset": 33751,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33916,
+      "offset": 33789,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 33954,
+      "offset": 33827,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 43345,
+      "offset": 43142,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 46339,
+      "offset": 46112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 46368,
+      "offset": 46141,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "BooleanLiteral",
-      "offset": 46489,
+      "offset": 46262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "FloatLiteral",
-      "offset": 51506,
+      "offset": 51219,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 53411,
+      "offset": 53124,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/FaceSpooffOnline.swift",
       "kind": "IntegerLiteral",
-      "offset": 53437,
+      "offset": 53150,
       "length": 3,
       "value": "640"
     },
@@ -3172,21 +3273,28 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
       "kind": "StringLiteral",
-      "offset": 667,
+      "offset": 666,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
       "kind": "StringLiteral",
-      "offset": 700,
+      "offset": 696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/SPOOFF\/FRAMEWORK\/SpooffFW\/SpooffFW\/SpooffServiceImp.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
       "length": 2,
       "value": "\"\""
     }

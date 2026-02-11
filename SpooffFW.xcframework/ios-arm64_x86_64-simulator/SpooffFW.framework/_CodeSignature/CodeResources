@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r18DE5RiCxNwg1St7lcgtd1o9F0=
+		XEU/Ap5Wv5WrlWyqxn0/Bx/5ybE=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pS5wsBtrQRxbKEZy0tG8X0h0EEw=
+		HjTxZcVPPvaBqdo+VySAogyloAg=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+lQsB1vWkQY7i3gltwqyTTDLdeU=
+		3xi8eLtN1TKk5LOGKFCdnR6MkHk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XStj7DgjfVGDOiER5TvrxI/x4co=
+		NLkjclNEDfjUGxeOpXoE+SI+Ma4=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+lQsB1vWkQY7i3gltwqyTTDLdeU=
+		3xi8eLtN1TKk5LOGKFCdnR6MkHk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ae6K1TTSbb35ZcGpTIevazdVZgA=
+		gLMACS4aDWvH7PhJEaoqquuhdGk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pS5wsBtrQRxbKEZy0tG8X0h0EEw=
+		HjTxZcVPPvaBqdo+VySAogyloAg=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3ioYrYxfk3ZtHcoRXkEDRptLmuU=
+		xxhn4CTVfZe8e9GtxEV/onVoIkk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RexBjrwLAIu9tFNW54QZ9XesG10=
+		Wtr/DtJLjiisM+fxoY00Z8eFw98=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3ioYrYxfk3ZtHcoRXkEDRptLmuU=
+		xxhn4CTVfZe8e9GtxEV/onVoIkk=
 		</data>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E/XcE7DWgt4FmnPpbjH6/t7/OqI=
+		52C3+7lJm/j6slrAMrISVmpa2JM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PXcmp2o6R5RXa7Zu4oTTR4mtG/Pt/sHHw/kajZc4w+8=
+			JF6uqYHQOKtpUMfv9BSlqoAwe9BLSolrp0qkpQ52Wgw=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8U3z/VDBiREtOjro8KiiJK1FGhUEmx3po/G6+ZHvEKw=
+			3GqwzZlUb/Jb8hIRXdNOJCDyRqyNDUXWE0kv7CMjyZA=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0vR7+CeiIZLTI3G6y3I6VfXrpda3tdhjTDBY2u47QmA=
+			k8WHgYITzUmlHjXwlDpjElwXzzcVBpUCPzM/yi+bPuE=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8U3z/VDBiREtOjro8KiiJK1FGhUEmx3po/G6+ZHvEKw=
+			3GqwzZlUb/Jb8hIRXdNOJCDyRqyNDUXWE0kv7CMjyZA=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACqzl2ZSpDspHGjfFM+A536V/p4cScPFweGYlth1zXU=
+			ClddQwLPfK7ICjxCysvhVazVio8ZvsfUSFdrCr5/NfY=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PXcmp2o6R5RXa7Zu4oTTR4mtG/Pt/sHHw/kajZc4w+8=
+			JF6uqYHQOKtpUMfv9BSlqoAwe9BLSolrp0qkpQ52Wgw=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m8RQgx0qKQMF9anwqz8s1mPv8EY3fZRbAoTZablfjGM=
+			ElNWd9QP/Lm3/X6nJjrm91dzrP4RjUiCiJ/BpgZxN1k=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wP3oxV//Bgbmj8VL3wguajgnLY+iGvH/30TtKeoEgLo=
+			Q3FhPqOsB0wAPoTjtw5dG2mBsaDNEzWwwylcAb6/BGw=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m8RQgx0qKQMF9anwqz8s1mPv8EY3fZRbAoTZablfjGM=
+			ElNWd9QP/Lm3/X6nJjrm91dzrP4RjUiCiJ/BpgZxN1k=
 			</data>
 		</dict>
 		<key>Modules/SpooffFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wyyw2ewvllxhfEZa0mAfL8TekN0TLGvWAv3JmjbqeYE=
+			Ns66zfuIRgmejAIGdoLkBQwXZN1LY6y9yr5d3AtdHDw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
